@@ -15,7 +15,7 @@
       <change beforePath="$PROJECT_DIR$/../Laravel-Basic" beforeDir="false" afterPath="$PROJECT_DIR$/../Laravel-Basic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -149,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605514956284</updated>
       <workItem from="1605514957800" duration="1174000" />
-      <workItem from="1605589609904" duration="854000" />
+      <workItem from="1605589609904" duration="1603000" />
     </task>
     <servers />
   </component>
