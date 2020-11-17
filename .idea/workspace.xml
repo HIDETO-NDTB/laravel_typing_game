@@ -16,6 +16,8 @@
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -122,7 +124,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kMeavTVEjdRtXDEdOSTDTQ7hZB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="追加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -149,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605514956284</updated>
       <workItem from="1605514957800" duration="1174000" />
-      <workItem from="1605589609904" duration="1603000" />
+      <workItem from="1605589609904" duration="3739000" />
     </task>
     <servers />
   </component>
@@ -157,9 +161,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605521432313">
+    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1605599594357">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605521432313" />
+    <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605599594357" />
+    <state x="480" y="280" width="720" height="490" key="find.popup" timestamp="1605603504326">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="480" y="280" width="720" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605603504326" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605603513326">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605603513326" />
   </component>
 </project>
