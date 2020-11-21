@@ -5,12 +5,16 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Drill;
 use App\Question;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class DrillsController extends Controller
 {
+    public  function index() {
+        $drills = Drill::all();
+        return view('drills.index', compact('drills'));
+    }
+
     public function new() {
         $categories = Category::all();
         return view('drills.new')->with('categories', $categories);
