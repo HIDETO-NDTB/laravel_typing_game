@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/drills/new', 'DrillsController@new')->name('new');
+Route::post('/drills/new', 'DrillsController@create')->name('drills.create');

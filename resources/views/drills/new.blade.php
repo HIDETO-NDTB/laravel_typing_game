@@ -8,7 +8,7 @@
                     <div class="card-header">{{ __('Drill Register') }}</div>
 
                     <div class="card-body">
-                        <form method="POST" action="">
+                        <form method="POST" action="{{ route('drills.create') }}">
                             @csrf
 
                             <div class="form-group row">
@@ -26,7 +26,7 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="category_name" class="col-md-4 col-form-label text-md-right">{{ __('Category') }}</label>
+                                <label for="category_id" class="col-md-4 col-form-label text-md-right">{{ __('Category') }}</label>
 
                                 <div class="col-md-6">
                                     <select name="category_id" id="category_id" @error('category_id') is-invalid @enderror>
@@ -45,16 +45,17 @@
 
                             @for($i=1; $i<=10; $i++)
                             <div class="form-group row">
-                                <label for="question" class="col-md-4 col-form-label text-md-right">{{ __('Question').$i }}</label>
+                                <label for="question{{ $i-1 }}" class="col-md-4 col-form-label text-md-right">{{ __('Question').$i }}</label>
 
                                 <div class="col-md-6">
-                                    <input id="question" type="text" class="form-control @error('question') is-invalid @enderror" name="question" value="{{ old('question') }}" required autocomplete="question" autofocus>
+                                    <input id="question{{ $i-1 }}" type="text" class="form-control @error('question'.($i - 1)) is-invalid @enderror" name="question{{ $i-1 }}">
 
-                                    @error('question')
+                                    @error('question'.($i - 1))
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                     @enderror
+
                                 </div>
                             </div>
                             @endfor

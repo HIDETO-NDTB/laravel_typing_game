@@ -16,7 +16,9 @@
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drills/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
@@ -153,7 +155,13 @@
       <option name="presentableId" value="Default" />
       <updated>1605514956284</updated>
       <workItem from="1605514957800" duration="1174000" />
-      <workItem from="1605589609904" duration="3739000" />
+      <workItem from="1605589609904" duration="8254000" />
+      <workItem from="1605669701459" duration="3440000" />
+      <workItem from="1605700669228" duration="245000" />
+      <workItem from="1605771470674" duration="6378000" />
+      <workItem from="1605850382534" duration="9040000" />
+      <workItem from="1605872823539" duration="576000" />
+      <workItem from="1605937467683" duration="1992000" />
     </task>
     <servers />
   </component>
@@ -161,6 +169,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="522" y="258" key="NewPhpClassDialog" timestamp="1605606567342">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="522" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605606567342" />
     <state x="661" y="455" key="NewPhpFileDialog" timestamp="1605599594357">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
