@@ -50,7 +50,7 @@ class DrillsController extends Controller
             }
         }
 
-        return redirect('drills/new')->with('flash_message', __('Registerd'));
+        return redirect('/')->with('flash_message', __('Registerd'));
     }
 
     public function edit($id) {
@@ -68,6 +68,9 @@ class DrillsController extends Controller
     }
 
     public function update(Request $request, $id) {
+        if (!ctype_digit($id)) {
+            return redirect('/')->with('flash_message', __('Invalid operation was performed'));
+        }
         // 1-1 $idでdrillを取得
         // 1-2 titleとcategory_idのバリデート〜変更
         // 1-3 $idでquestionを取得
