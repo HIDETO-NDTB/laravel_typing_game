@@ -8,7 +8,7 @@
                     <div class="card-header">{{ __('Edit Page') }}</div>
 
                     <div class="card-body">
-                        <form method="POST" action="">
+                        <form method="POST" action="{{ route('drills.update', $drills->id) }}">
                             @csrf
 
                             <div class="form-group row">

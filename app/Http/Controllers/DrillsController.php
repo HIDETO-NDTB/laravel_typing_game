@@ -25,7 +25,7 @@ class DrillsController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'category_id' => 'required',
-            'question' => 'string|nullable|max:255',
+            'question0' => 'string|max:255',
         ]);
 
         $drill = new Drill;
@@ -54,6 +54,9 @@ class DrillsController extends Controller
     }
 
     public function edit($id) {
+        if (!ctype_digit($id)) {
+            return redirect('/')->with('flash_message', __('Invalid operation was performed'));
+        }
         $drills = Drill::find($id);
         $categories = Category::all();
         $selected_category = $drills->category_id;
@@ -62,5 +65,49 @@ class DrillsController extends Controller
 //        Log::debug($selected_category);
         $questions = Question::where('drill_id', $id)->get();
         return view('drills.edit', compact('drills', 'categories', 'selected_category', 'questions'));
+    }
+
+    public function update(Request $request, $id) {
+        // 1-1 $idでdrillを取得
+        // 1-2 titleとcategory_idのバリデート〜変更
+        // 1-3 $idでquestionを取得
+        // 1-4 questionのバリデート〜変更、追加分は挿入
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'category_id' => 'required',
+            'question1' => 'string|max:255',
+        ]);
+        $drill = Drill::find($id);
+        $drill->title = $request->title;
+        $drill->category_id = $request->category_id;
+        $drill->save();
+
+        $i = 1;
+        $questions = Question::where('drill_id', $id)->get();
+        foreach ($questions as $question) {
+            $question->question = $request->input('question'.$i);
+            $question->save();
+            $i++;
+        }
+
+        for ($i; $i<=10; $i++) {
+            if($request->filled('question'.$i)) {
+                $question = new Question;
+                $question->question = $request->input('question'.$i);
+                $question->drill_id = $drill->id;
+                $question->save();
+            } else {
+                return redirect('/')->with('flash_message', __('Registerd'));
+            }
+        }
+
+        return redirect('/')->with('flash_message', __('Registerd'));
+
+
+        // 2-1 drillsテーブルにdelete_flg追加
+        // 2-2 index.blade edit.bladeの変更（delete_flgがfalseで表示）
+        // 2-3 新たな修正項目のバリデート
+        // 2-4 新たにdrillsとquestionsに挿入
+        // 2-5 元々のデータのdelete_flgをtrueに変更
     }
 }
