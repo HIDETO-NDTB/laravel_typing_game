@@ -10,5 +10,7 @@
     "Edit Page": "修正ページ",
     "Update": "修正",
     "Invalid operation was performed": "不正なアクセスが発生しました",
-    "Go Edit": "編集する"
+    "Go Edit": "編集する",
+    "Go Delete": "削除する",
+    "Deleted": "削除しました"
 }

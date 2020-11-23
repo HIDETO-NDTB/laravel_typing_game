@@ -113,4 +113,21 @@ class DrillsController extends Controller
         // 2-4 新たにdrillsとquestionsに挿入
         // 2-5 元々のデータのdelete_flgをtrueに変更
     }
+
+    public function destroy($id) {
+        if (!ctype_digit($id)) {
+            return redirect('/')->with('flash_message', __('Invalid operation was performed'));
+        }
+        // $idでdrillを取得
+        // $idでquestionsを取得
+        // 取得したquestionsを全て削除
+        // 取得したdrillを削除
+        $drill = Drill::find($id);
+        $questions = Question::where('drill_id', $id);
+
+        $questions->delete();
+        $drill->delete();
+        return redirect('/')->with('flash_message', __('Deleted'));
+
+    }
 }
