@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'DrillsController@index')->name('drills');
 Route::get('/drills/new', 'DrillsController@new')->name('new');
 Route::post('/drills/new', 'DrillsController@create')->name('drills.create');
+Route::get('/drills/{id}', 'DrillsController@edit')->name('drills.edit');

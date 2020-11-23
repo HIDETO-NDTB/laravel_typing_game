@@ -18,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drills/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/new.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
@@ -162,6 +161,7 @@
       <workItem from="1605850382534" duration="9040000" />
       <workItem from="1605872823539" duration="576000" />
       <workItem from="1605937467683" duration="3585000" />
+      <workItem from="1606024602271" duration="8118000" />
     </task>
     <servers />
   </component>

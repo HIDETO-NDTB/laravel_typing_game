@@ -7,6 +7,7 @@ use App\Drill;
 use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 
 class DrillsController extends Controller
 {
@@ -50,5 +51,16 @@ class DrillsController extends Controller
         }
 
         return redirect('drills/new')->with('flash_message', __('Registerd'));
+    }
+
+    public function edit($id) {
+        $drills = Drill::find($id);
+        $categories = Category::all();
+        $selected_category = $drills->category_id;
+//        Log::debug($drills);
+//        Log::debug($categories);
+//        Log::debug($selected_category);
+        $questions = Question::where('drill_id', $id)->get();
+        return view('drills.edit', compact('drills', 'categories', 'selected_category', 'questions'));
     }
 }
