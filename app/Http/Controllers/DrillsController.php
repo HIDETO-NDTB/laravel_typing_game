@@ -53,6 +53,17 @@ class DrillsController extends Controller
         return redirect('/')->with('flash_message', __('Registerd'));
     }
 
+    public function show($id) {
+        if (!ctype_digit($id)) {
+            return redirect('/')->with('flash_message', __('Invalid operation was performed'));
+        }
+        $drill = Drill::find($id);
+        $category = Category::find($drill->category_id);
+        $questions = Question::where('drill_id', $id)->get();
+        Log::debug($questions);
+        return view('drills.show', compact('drill', 'category', 'questions'));
+    }
+
     public function edit($id) {
         if (!ctype_digit($id)) {
             return redirect('/')->with('flash_message', __('Invalid operation was performed'));

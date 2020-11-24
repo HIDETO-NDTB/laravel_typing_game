@@ -11,7 +11,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">{{ $drill->title }}</h3>
-                            <a href="#" class="btn btn-primary">{{ __('Go Practice') }}</a>
+                            <a href="{{ route('drills.show', $drill->id) }}" class="btn btn-primary">{{ __('Go Practice') }}</a>
                             <a href="{{ route('drills.edit', $drill->id) }}" class="btn btn-warning">{{ __('Go Edit') }}</a>
                             <form action="{{ route('drills.delete', $drill->id) }}" method="post" class="d-inline">
                                 @csrf
