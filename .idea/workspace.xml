@@ -16,14 +16,8 @@
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drills/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -168,7 +162,8 @@
       <workItem from="1605937467683" duration="3585000" />
       <workItem from="1606024602271" duration="8118000" />
       <workItem from="1606115134296" duration="8604000" />
-      <workItem from="1606196205779" duration="14112000" />
+      <workItem from="1606196205779" duration="14342000" />
+      <workItem from="1606280534800" duration="2379000" />
     </task>
     <servers />
   </component>
@@ -180,10 +175,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="522" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605606567342" />
-    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1606196768412">
+    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1606283251143">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606196768412" />
+    <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606283251143" />
     <state x="480" y="280" width="720" height="490" key="find.popup" timestamp="1605603504326">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
