@@ -16,6 +16,11 @@ class DrillsController extends Controller
         return view('drills.index', compact('drills'));
     }
 
+    public function mypage() {
+        $drills = Auth::user()->drills()->get();
+        return view('drills.mypage', compact('drills'));
+    }
+
     public function new() {
         $categories = Category::all();
         return view('drills.new')->with('categories', $categories);
@@ -68,7 +73,8 @@ class DrillsController extends Controller
         if (!ctype_digit($id)) {
             return redirect('/')->with('flash_message', __('Invalid operation was performed'));
         }
-        $drills = Drill::find($id);
+//        $drills = Drill::find($id);
+        $drills = Auth::user()->drills()->find($id);
         $categories = Category::all();
         $selected_category = $drills->category_id;
 //        Log::debug($drills);
@@ -91,7 +97,8 @@ class DrillsController extends Controller
             'category_id' => 'required',
             'question1' => 'string|max:255',
         ]);
-        $drill = Drill::find($id);
+//        $drill = Drill::find($id);
+        $drill = Auth::user()->drills()->find($id);
         $drill->title = $request->title;
         $drill->category_id = $request->category_id;
         $drill->save();
@@ -133,7 +140,8 @@ class DrillsController extends Controller
         // $idでquestionsを取得
         // 取得したquestionsを全て削除
         // 取得したdrillを削除
-        $drill = Drill::find($id);
+//        $drill = Drill::find($id);
+        $drill = Auth::user()->drills()->find($id);
         $questions = Question::where('drill_id', $id);
 
         $questions->delete();

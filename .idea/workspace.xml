@@ -16,8 +16,12 @@
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Drill.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Drill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -163,7 +167,7 @@
       <workItem from="1606024602271" duration="8118000" />
       <workItem from="1606115134296" duration="8604000" />
       <workItem from="1606196205779" duration="14342000" />
-      <workItem from="1606280534800" duration="2379000" />
+      <workItem from="1606280534800" duration="7132000" />
     </task>
     <servers />
   </component>
@@ -175,10 +179,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="522" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605606567342" />
-    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1606283251143">
+    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1606291906605">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606283251143" />
+    <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606291906605" />
     <state x="480" y="280" width="720" height="490" key="find.popup" timestamp="1605603504326">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
