@@ -23,7 +23,7 @@ class DrillsController extends Controller
 
     public function new() {
         $categories = Category::all();
-        return view('drills.new')->with('categories', $categories);
+        return view('drills.new', compact('categories'));
     }
 
     public function create(Request $request) {
