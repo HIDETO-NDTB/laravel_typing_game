@@ -16,6 +16,10 @@
                     </div>
                 </div>
             @endforeach
+
+        </div>
+        <div class="paginate" style="margin-top: 50px;">
+            {{ $drills->links() }}
         </div>
     </div>
 @endsection

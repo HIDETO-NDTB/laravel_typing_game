@@ -8,8 +8,8 @@
 
                 @error('question'.($i - 1))
                 <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                    <strong>{{ $message }}</strong>
+                </span>
                 @enderror
 
             </div>

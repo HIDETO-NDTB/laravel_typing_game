@@ -7,13 +7,15 @@ use App\Drill;
 use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
 class DrillsController extends Controller
 {
     public  function index() {
-        $drills = Drill::all();
-        return view('drills.index', compact('drills'));
+//        $drills = Drill::all();
+        $drills = DB::table('drills')->paginate(4);
+        return view('drills.index', compact( 'drills'));
     }
 
     public function mypage() {
