@@ -55,7 +55,7 @@ class DrillsController extends Controller
             }
         }
 
-        return redirect('/')->with('flash_message', __('Registerd'));
+        return redirect('/')->with('flash_message', __('Registered'));
     }
 
     public function show($id) {
@@ -122,7 +122,7 @@ class DrillsController extends Controller
             }
         }
 
-        return redirect('/')->with('flash_message', __('Registerd'));
+        return redirect('/')->with('flash_message', __('Registered'));
 
 
         // 2-1 drillsテーブルにdelete_flg追加

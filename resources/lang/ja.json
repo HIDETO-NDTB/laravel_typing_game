@@ -2,6 +2,7 @@
     "Drill Register": "練習登録",
     "Login": "ログイン",
     "Register": "登録",
+    "Registered": "登録しました",
     "Title": "タイトル",
     "Category": "カテゴリー",
     "Question": "問題",
@@ -13,5 +14,8 @@
     "Go Edit": "編集する",
     "Go Delete": "削除する",
     "Deleted": "削除しました",
-    "Practice": "タイピング練習"
+    "Practice": "タイピング練習",
+    "Go Mypage": "マイページ",
+    "My Page": "マイページ",
+    "Create New": "練習問題登録"
 }

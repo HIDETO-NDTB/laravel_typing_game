@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h2>{{ __('Drill List') }}</h2>
+        <h2>{{ __('My Page') }}</h2>
         <div class="row">
 
             @foreach($drills as $drill)
@@ -21,6 +21,9 @@
                     </div>
                 </div>
             @endforeach
+            <div class="col-sm-10" style="margin-top: 50px;">
+                <a href="{{ route('new') }}" class="btn btn-success" style="width: 200px">{{ __('Create New') }}</a>
+            </div>
         </div>
     </div>
 @endsection
