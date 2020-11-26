@@ -15,13 +15,12 @@
       <change beforePath="$PROJECT_DIR$/../Laravel-Basic" beforeDir="false" afterPath="$PROJECT_DIR$/../Laravel-Basic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel_typing_game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_typing_game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drills/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drills/mypage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/mypage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -41,7 +40,6 @@
     <include_path>
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
@@ -69,7 +67,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
@@ -119,12 +116,21 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kMeavTVEjdRtXDEdOSTDTQ7hZB" />
@@ -168,7 +174,8 @@
       <workItem from="1606115134296" duration="8604000" />
       <workItem from="1606196205779" duration="14342000" />
       <workItem from="1606280534800" duration="9695000" />
-      <workItem from="1606358402870" duration="289000" />
+      <workItem from="1606358402870" duration="444000" />
+      <workItem from="1606371445377" duration="2181000" />
     </task>
     <servers />
   </component>
@@ -176,6 +183,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="594" y="444" key="ComposerInitDialogKey" timestamp="1606373177485">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="594" y="444" key="ComposerInitDialogKey/0.0.1680.1050@0.0.1680.1050" timestamp="1606373177485" />
     <state x="522" y="258" key="NewPhpClassDialog" timestamp="1605606567342">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -188,9 +199,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="480" y="280" width="720" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605603504326" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605603513326">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606374264479">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605603513326" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606374264479" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1606374240504" />
   </component>
 </project>
