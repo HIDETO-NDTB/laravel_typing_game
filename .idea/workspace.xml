@@ -16,10 +16,9 @@
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Drill.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Drill.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/create-new-questions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/create-new-questions.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drills/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/create-new-drill.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/create-new-drill.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/create-new-questions.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -174,7 +173,9 @@
       <workItem from="1606196205779" duration="14342000" />
       <workItem from="1606280534800" duration="9695000" />
       <workItem from="1606358402870" duration="444000" />
-      <workItem from="1606371445377" duration="9266000" />
+      <workItem from="1606371445377" duration="9956000" />
+      <workItem from="1606445470165" duration="276000" />
+      <workItem from="1606618826925" duration="5709000" />
     </task>
     <servers />
   </component>

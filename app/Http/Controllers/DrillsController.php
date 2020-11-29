@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Category;
 use App\Drill;
+use App\Http\Requests\CreateDrills;
 use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -28,12 +29,7 @@ class DrillsController extends Controller
         return view('drills.new', compact('categories'));
     }
 
-    public function create(Request $request) {
-        $request->validate([
-            'title' => 'required|string|max:255',
-            'category_id' => 'required',
-            'question0' => 'string|max:255',
-        ]);
+    public function create(CreateDrills $request) {
 
         $drill = new Drill;
         $drill->title = $request->title;
@@ -53,7 +49,7 @@ class DrillsController extends Controller
                 $question->drill_id = $drill->id;
                 $question->save();
             } else {
-                return redirect('drills/new')->with('flash_message', __('Registerd'));
+                return redirect('drills/new')->with('flash_message', __('Registered'));
             }
         }
 

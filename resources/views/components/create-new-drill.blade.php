@@ -3,12 +3,12 @@
         <label for="title" class="col-md-4 col-form-label text-md-right">{{ __('Title') }}</label>
 
         <div class="col-md-6">
-            <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') }}" required autocomplete="title" autofocus>
+            <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') }}" autocomplete="title" autofocus>
 
             @error('title')
-            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+            <span class="invalid-feedback" role="alert" style="font-size: 16px;">
+                <strong>{{ $message }}</strong>
+            </span>
             @enderror
         </div>
     </div>
@@ -24,9 +24,9 @@
             </select>
 
             @error('category_id')
-            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+            <span class="invalid-feedback" role="alert" style="font-size: 16px;">
+                <strong>{{ $message }}</strong>
+            </span>
             @enderror
         </div>
     </div>

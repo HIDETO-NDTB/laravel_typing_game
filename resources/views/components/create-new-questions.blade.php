@@ -7,7 +7,7 @@
                 <input id="question{{ $i-1 }}" type="text" class="form-control @error('question'.($i - 1)) is-invalid @enderror" name="question{{ $i-1 }}" value="{{ old('question'.($i-1)) }}">
 
                 @error('question'.($i - 1))
-                <span class="invalid-feedback" role="alert">
+                <span class="invalid-feedback" role="alert" style="font-size: 16px;">
                     <strong>{{ $message }}</strong>
                 </span>
                 @enderror
