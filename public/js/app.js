@@ -1938,6 +1938,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['title', 'questions', 'categoryName'],
@@ -37706,6 +37707,7 @@ var render = function() {
                     "button",
                     {
                       staticClass: "btn btn-primary ",
+                      staticStyle: { width: "140px" },
                       on: { click: _vm.doDrill }
                     },
                     [
@@ -37715,6 +37717,8 @@ var render = function() {
                     ]
                   )
                 : _vm._e(),
+              _vm._v(" "),
+              _c("x-back-button"),
               _vm._v(" "),
               _vm.isCountDown
                 ? _c("p", { staticStyle: { "font-size": "100px" } }, [

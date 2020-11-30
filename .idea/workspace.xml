@@ -16,9 +16,10 @@
       <change beforePath="$PROJECT_DIR$/../PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrillsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/create-new-drill.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/create-new-drill.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/create-new-questions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drills/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drills/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../make-rules" beforeDir="false" afterPath="$PROJECT_DIR$/../make-rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2" afterDir="false" />
     </list>
@@ -175,7 +176,8 @@
       <workItem from="1606358402870" duration="444000" />
       <workItem from="1606371445377" duration="9956000" />
       <workItem from="1606445470165" duration="276000" />
-      <workItem from="1606618826925" duration="5709000" />
+      <workItem from="1606618826925" duration="6062000" />
+      <workItem from="1606698203472" duration="3570000" />
     </task>
     <servers />
   </component>
@@ -199,10 +201,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="480" y="280" width="720" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605603504326" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606377486312">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606711941883">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606377486312" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606711941883" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1606374240504" />
   </component>
 </project>
